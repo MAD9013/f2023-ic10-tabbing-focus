@@ -10,22 +10,22 @@
 </head>
 <body>
 
-  <header class="masthead">
+  <header class="navbar">
 
     <div class="container">
 
-      <h1 class="masthead__headline">
-        <a class="masthead__logo" href="/">
-          <img class="masthead__icon" src="./images/madd-logo.svg" alt="MADD Logo">
-          <span class="masthead__title">MAD9013</span>
+      <h1 class="navbar__headline">
+        <a class="navbar__logo" href="/">
+          <img class="navbar__icon" src="./images/madd-logo.svg">
+          <span class="navbar__title">Accessibility</span>
         </a>
       </h1>
 
-      <nav id="nav" class="masthead__nav">
-        <ul class="masthead__list">
-          <li><a class="masthead__link" href="#">Nav Link 1</a></li>
-          <li><a class="masthead__link" href="#">Nav Link 2</a></li>
-          <li><a class="masthead__link" href="#">Nav Link 3</a></li>
+      <nav class="navbar__nav">
+        <ul class="navbar__list">
+          <li><a class="navbar__link" href="#resources">Resources</a></li>
+          <li><a class="navbar__link" href="#faq">FAQ</a></li>
+          <li><a class="navbar__link" href="#sign-up">Sign Up</a></li>
         </ul>
       </nav>
 
@@ -49,7 +49,7 @@
       <h2 class="card-group__title">Resources</h2>
         <a class="card" href="https://uxdesign.cc/10-principles-for-color-usage-in-ui-design-65174b213004">
           <div class="card__image">
-            <img src="./images/card-ui.jpg" alt="An iPhone displaying an app user interface.">
+            <img src="./images/card-ui.jpg">
           </div>
           <div class="card__content">
             <h3 class="card__title">Color Usage in UI Design</h3>
@@ -59,7 +59,7 @@
         </a>
         <a class="card" href="https://learn-the-web.algonquindesign.ca/topics/accessibility-checklist/">
           <div class="card__image">
-            <img src="./images/card-checklist.jpg" alt="A phone on a notebook displaying a checklist.">
+            <img src="./images/card-checklist.jpg">
           </div>
           <div class="card__content">
             <h3 class="card__title">Accessibility Checklist</h3>
@@ -69,18 +69,18 @@
         </a>
         <a class="card" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">
           <div class="card__image">
-            <img src="./images/card-docs.jpg" alt="A screen showing a list of documentation topics.">
+            <img src="./images/card-docs.jpg">
           </div>
           <div class="card__content">
             <h3 class="card__title">MDN Accessibility Documentation</h3>
-              <p class="card__text">Mozilla's documentation for a wide range of accessibility learning.</p>
+            <p class="card__text">Mozilla's documentation for a wide range of accessibility learning.</p>
             <span class="btn" href="#">Learn More</span>
           </div>
         </a>
       </div>
     </section>
 
-    <section class="faq" id="faq">
+    <section id="faq" class="faq">
       <div class="container">
         <h2 class="faq__title">Frequently Asked Questions</h2>
         <div class="faq__wrap">
@@ -118,7 +118,7 @@
       </div>
     </section>
 
-    <section class="sign-up" id="newsletter">
+    <section id="sign-up" class="sign-up">
       <div class="container">
         <div class="sign-up__wrap">
           <form class="sign-up__form" action="#">
@@ -127,20 +127,20 @@
               <p>Sign up now to join the Accessibility Newsletter!</p>
             </div>
             <div class="form-unit">
-              <label for="fName">First Name</label>
-              <input type="text" id="fName" name="fName">
+              <label>First Name</label>
+              <input type="text" name="fName">
             </div>
             <div class="form-unit">
-              <label for="lName">Last Name</label>
-              <input type="text" id="lName" name="lName">
+              <label>Last Name</label>
+              <input type="text" name="lName">
             </div>
             <div class="form-unit">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email">
+              <label>Email</label>
+              <input type="email" name="email">
             </div>
             <div class="form-unit">
-              <label for="tel">Phone</label>
-              <input type="tel" id="tel" name="tel">
+              <label>Phone</label>
+              <input type="tel" name="tel">
             </div>
             <div class="form-unit full">
               <input type="submit" value="Sign Up">
@@ -157,16 +157,16 @@
 
     <div class="container">
 
-      <a class="footer__logo" href="#">
-        <img class="footer__icon" src="./images/madd-logo.svg" alt="MADD Logo">
-        <span class="footer__title">MAD9013</span>
+      <a class="footer__logo" href="/">
+        <img class="footer__icon" src="./images/madd-logo.svg">
+        <span class="footer__title">Accessibility</span>
       </a>
 
       <nav class="footer__nav">
         <ul class="footer__list">
-          <li><a class="footer__link" href="#">Nav Link 1</a></li>
-          <li><a class="footer__link" href="#">Nav Link 2</a></li>
-          <li><a class="footer__link" href="#">Nav Link 3</a></li>
+          <li><a class="footer__link" href="#resources">Resources</a></li>
+          <li><a class="footer__link" href="#faq">FAQ</a></li>
+          <li><a class="footer__link" href="#sign-up">Sign Up</a></li>
         </ul>
       </nav>
 
